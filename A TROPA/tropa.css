@@ -5,6 +5,24 @@ body{
     width: 100vw;
     background: linear-gradient(72deg, #3debb0 1%, #8956f3 99%)
 }
+@font-face {
+    font-family:'bunny';
+    src: url(fontes/spring/Spring\ In\ My\ Step.otf);
+}
+
+.title{
+    font-size: 2em;
+    color: black;
+    font-family:'bunny';
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    height: 14%;
+    width: 30%;
+}
+
 
 .content{
     height: 700px;
