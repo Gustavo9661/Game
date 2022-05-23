@@ -11,7 +11,7 @@ body{
 }
 
 .title{
-    font-size: 2em;
+    font-size: 1.8vw;
     color: black;
     font-family:'bunny';
     position: absolute;
@@ -22,8 +22,6 @@ body{
     height: 14%;
     width: 30%;
 }
-
-
 .content{
     height: 700px;
     width: 550px;
@@ -93,5 +91,28 @@ input{
     margin-left: -80%;
 }
 
+button{
+    border-radius: 20px;
+    height: 30px;
+    width: 70px;
+    margin: 0;
+    font-family: 'bunny';
+    cursor: pointer;
+    font-size: 26px;
+    
+   
+}
+button:hover{  
+    background-color: black;
+    color: red;
+}
 
-
+.audios{
+    position: absolute;
+    bottom: 7%;
+    left: 47%;
+    display: flex;
+}
+audio{
+    display: none;
+}
